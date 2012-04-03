@@ -31,39 +31,58 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+        <h3>Welcome to the PESTT project page</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>PESTT is an Eclipse plug-in for learning and designing unit tests for the Java language.
+Currently, PESTT supports unit tests based on the control flow graph (CFG) of methods. 
+It generates the CFG based on the source code of the method, allows for bidirectional linking between the source code 
+and the generated CFG, generates test requirements, allows for the specification of test paths, and, finally, 
+computes the coverage level statistics. 
+</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p>The following screen shot gives a flavor of PESTT in action</p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<img src="images/pestt-perspective" alt="PESTT perspective"/>
 
-<h3>Designer Templates</h3>
+<p>The PESTT perspective shows the CFG of method <code>sequencialWhiles</code> on the right view (Graph), 
+and on the bottom, the Structural Coverage Criteria view shows the test requirement set (left), the test path
+set (in the middle), and the coverage level (right).</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>You can pick from several graph coverage criteria, as illustrated by the following screen shot</p>
 
-<h3>Rather Drive Stick?</h3>
+<img src="images/pestt-cfg-coverage-criteria" alt="Control Flow Graph Coverage Criteria"/>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<h3>PESTT Documentation</h3>
+
+<p>For installing PESTT please follow our <a href="https://github.com/pestt/PESTT/wiki/Installing-PESTT">instructions</a>.
+Then, it is advisable to take a quick <a href="https://github.com/pestt/PESTT/wiki/PESTT-quick-tutorial">tutorial</a> on how to use PESTT.</p>
+<p>More information is available in the project <a href="https://github.com/pestt/PESTT/wiki">wiki</a>.</p>
 
 <h3>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>PESST is being developed by 
+<ul>
+<li> <a href="https://github.com/ruigameiro" class="user-mention">Rui Gameiro</a>
+<li> <a href="https://github.com/fcmartins" class="user-mention">Francisco Martins</a>
+</ul>
+
+If you want to contribute to the project, drop us an e-mail (see contacts below).
 
 <h3>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact support@github.com and we’ll help you sort it out.</p>
+<p>You can contact us through the e-mail <a href="mailto:pestt 'at' di.fc.ul.pt">pestt 'at' di.fc.ul.pt</a>.</p>
+<p>
+In case you find some undocumented features ;) we appreciate you 
+inform us either through the project e-mail or submitting an
+<a href="https://github.com/pestt/PESTT/issues/new">issue</a> at github project site.
+(a github account is required). 
+</p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Pestt maintained by <a href="https://github.com/pestt">pestt</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
